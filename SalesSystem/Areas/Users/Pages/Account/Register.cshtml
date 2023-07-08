@@ -47,6 +47,35 @@
                                             <input asp-for="Input.NID" placeholder="NID" class="form-control" autofocus />
                                             <span asp-validation-for="Input.NID" class="text-danger"></span>
                                         </div>
+                                        <div class="form-group">
+                                            <input asp-for="Input.Name" placeholder="Name" class="form-control" />
+                                            <span asp-validation-for="Input.Name" class="text-danger"></span>
+                                        </div>
+                                        <div class="form-group">
+                                            <input asp-for="Input.LastName" placeholder="Last Name" class="form-control" />
+                                            <span asp-validation-for="Input.LastName" class="text-danger"></span>
+                                        </div>
+                                        <div class="form-group">
+                                            <input asp-for="Input.PhoneNumber" placeholder="Phone Number" class="form-control" />
+                                            <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
+                                        </div>
+                                        <div class="form-group">
+                                            <input asp-for="Input.Email" placeholder="Email" class="form-control" />
+                                            <span asp-validation-for="Input.Email" class="text-danger"></span>
+                                        </div>
+                                        <div class="form-group">
+                                            <input asp-for="Input.Password" placeholder="Password" class="form-control" />
+                                            <span asp-validation-for="Input.Password" class="text-danger"></span>
+                                        </div>
+                                        <div class="form-group">
+                                            @*@Html.DropDownList("Input.Role", new SelectList(Model.Input.rolesLista, "Text", "Text"), "Seleccione un role", new { @class = "form-control" });*@
+                                        </div>
+                                        <div class="form-group">
+                                            <button type="submit" class="btn btn-primary btn-block">Register</button>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="text-danger">@Html.DisplayFor(m => m.Input.ErrorMessage)  </label>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

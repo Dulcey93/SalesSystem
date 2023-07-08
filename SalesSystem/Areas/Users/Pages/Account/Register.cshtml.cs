@@ -19,6 +19,9 @@ namespace SalesSystem.Areas.Users.Pages.Account
         public class InputModel : InputModelRegister
         {
             public IFormFile AvatarImage { get; set; }
+            [TempData]
+            public string ErrorMessage { get; set; }
         }
     }
 }
+
