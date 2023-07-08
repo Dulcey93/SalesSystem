@@ -11,7 +11,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Dulcey93/SalesSystem">
-    <img src="SalesSystem/SalesSystem/wwwroot/images/images/trolley.png" alt="Logo" width="80" height="80">
+    <img src="SalesSystem/wwwroot/images/images/trolley.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">SalesSystem</h3>
@@ -61,7 +61,7 @@
 ## About The Project
 
 <a href="https://github.com/Dulcey93/SalesSystem">
-    <img src="SalesSystem/SalesSystem/wwwroot/images/images/Readme.PNG" alt="Screenshot" width="100%" height="100%">
+    <img src="SalesSystem/wwwroot/images/images/Readme.PNG" alt="Screenshot" width="100%" height="100%">
 </a>
 
 
@@ -132,7 +132,7 @@ As was mentioned before sometimes the GitHub Pages can't upload the libraries th
 This is how The SalesSystem should be in your browser
 
 <a href="https://github.com/Dulcey93/SalesSystem">
-    <img src="SalesSystem/SalesSystem/wwwroot/images/images/Readme.PNG" alt="Screenshot" width="100%" height="100%">
+    <img src="SalesSystem/wwwroot/images/images/Readme.PNG" alt="Screenshot" width="100%" height="100%">
 </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
